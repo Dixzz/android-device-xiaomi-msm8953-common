@@ -31,3 +31,10 @@
 
 # Kcal
 /sys/devices/platform/kcal_ctrl.0(/.*)?              u:object_r:sysfs_kcal:s0
+
+# HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.0-service\.widevine         u:object_r:hal_drm_widevine_exec:s0
+
+# Light HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_msm8953 u:object_r:hal_light_default_exec:s0
+>>>>>>> fdb2371... msm8953-common: Convert lights HAL into a native binderized HAL
