@@ -38,7 +38,7 @@ vendor.voice.voip.conc.disabled=true
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
-vendor.qcom.bluetooth.soc=pronto \
+qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
 ro.qualcomm.bt.hci_transport=smd
 
@@ -78,7 +78,7 @@ persist.hwc.enable_vds=1 \
 persist.hwc.mdpcomp.enable=true \
 ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
-ro.sf.lcd_density=480
+ro.sf.lcd_density=420
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
