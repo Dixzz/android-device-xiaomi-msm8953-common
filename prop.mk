@@ -183,4 +183,13 @@ persist.sys.usb.config.extra=none
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-wifi.interface=wlan0
+wifi.interface=wlan0 \
+persist.sys.disable_rescue=true
+
+# Wi-fi
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.sys.wfd.nohdcp=1 \
+     persist.debug.wfd.enable=1 \
+     persist.sys.wfd.virtual=0 \
+     persist.debug.wfd.enable=1 \
+     persist.sys.wfd.virtual=0
