@@ -195,4 +195,5 @@ persist.sys.usb.config.extra=none
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-wifi.interface=wlan0
+wifi.interface=wlan0 \
+persist.camera.HAL3.enabled=1
