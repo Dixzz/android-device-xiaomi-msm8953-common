@@ -316,7 +316,7 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 	
-         The brightness values must be between 0 and 255 and be non-decreasing.
+        <!-- The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
 	<item>18</item>   <!-- 0-10 -->
@@ -333,16 +333,9 @@
         <item>255</item>  <!-- 10000+ -->
     </integer-array>
     
-         Backlight values for LUX levels between these control points.
+       <!-- Backlight values for LUX levels between these control points.
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>8</item>
-        <item>80</item>
-        <item>150</item>
-        <item>350</item>
-        <item>1500</item>
-        <item>3500</item>
-        <item>7000</item>
         <item>10</item>     <!-- twilight -->
         <item>50</item>     <!-- dim indoor -->
         <item>100</item>    <!-- home -->
