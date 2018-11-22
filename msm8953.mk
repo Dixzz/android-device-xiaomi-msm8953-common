@@ -404,5 +404,6 @@ PRODUCT_COPY_FILES += \
 
 # Extras
 PRODUCT_PACKAGES += \
-    XiaomiParts
-
+    XiaomiParts \
+    YoutubeVanced \
+    MicrogYouTube
