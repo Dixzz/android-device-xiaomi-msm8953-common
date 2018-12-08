@@ -42,8 +42,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 #Syberia 
 PRODUCT_GENERIC_PROPERTIES += \
-	ro.sf.lcd_density=420 \
-
+	ro.sf.lcd_density=480 \
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
 # Permissions
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml \
